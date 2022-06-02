@@ -1,11 +1,12 @@
 
 import './App.css';
-import Header from './Compotents/Header';
+import Header from './Compotents/Header/Header';
+
 
 function App() {
   return (
-      <Header/>
-  );
+         <Header/>
+);
 }
 
 
