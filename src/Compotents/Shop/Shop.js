@@ -9,14 +9,20 @@ const [products,setproducts]=useState(first10);
 
     
   return (
-    <div> 
-     <h1>Shop here</h1>   
-     <h3>{products.length}</h3>
-     
-            <ul>
-                {products.map(product=> <li>{ product.name}</li>)}
-            </ul>
+    <div className=' ' > 
 
+      <div className="product-container">
+      <h3>{products.length}</h3>
+     
+     <ul>
+         {products.map(product=> <li>{ product.name}</li>)}
+     </ul>
+      </div>
+
+
+      <div className="shop-cart">
+        <h3> this is shop crat.</h3>
+     </div>
      
      </div>
   )
