@@ -1,0 +1,16 @@
+.products{
+    display: flex;
+    border-bottom: 1px solid lightgray;
+    padding: 10px;
+    margin: 10px;
+    gap: 16px;
+}
+
+.product-name{
+    margin-left: 10px;
+    padding-top: 20px;
+}
+
+#name{
+    color:rgb(51, 51, 181);
+}
