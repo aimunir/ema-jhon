@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import fakeData from '../../fakeData'
+import './Shop.css'
 const Shop = () => {
     
 const first10 = fakeData.slice(0,12);
@@ -9,7 +10,7 @@ const [products,setproducts]=useState(first10);
 
     
   return (
-    <div className=' ' > 
+    <div className='shop-container'> 
 
       <div className="product-container">
       <h3>{products.length}</h3>

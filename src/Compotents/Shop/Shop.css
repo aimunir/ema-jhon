@@ -1,0 +1,11 @@
+.shop-container{
+    display: flex;
+    gap: 5px;
+    width: 1000px;
+   
+}
+
+.product-container{
+    border-right: 1px solid black;
+}
+
