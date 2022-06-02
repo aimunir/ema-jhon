@@ -1,11 +1,13 @@
 .shop-container{
-    display: flex;
-    gap: 5px;
-    width: 1000px;
-   
+        display: flex;
+        gap: 15px;
+        width:100vw;
+        height: 100vh;   
 }
 
 .product-container{
     border-right: 1px solid black;
+    margin-left: 10px;
+    width: 70%;
 }
 
