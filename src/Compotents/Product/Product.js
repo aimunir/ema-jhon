@@ -16,7 +16,8 @@ const Product = (props) => {
         <h5 id='name'>{name}</h5><br />
         <p>by:{seller}</p> <p>Price : ${price}</p>
         <p>Shipping : $/{shipping}</p>
-        <p>Only {stock} left . Order Now</p>      
+        <p>Only {stock} left . Order Now</p> 
+        <button className='cart-btn'>Add to Cart</button>     
         </div>      
     </div>
   )
