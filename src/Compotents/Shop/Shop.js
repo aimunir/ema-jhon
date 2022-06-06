@@ -9,12 +9,20 @@ const Shop = () => {
 
   const [products, setproducts] = useState(first10);
 
+  const  handleAddProduct=()=>{
+                      console.log('product added');    
+  }
+
+
   return (
     <div className="shop-container">
       {/* for product */}
 
       <div className="product-container">
-        {products.map(pd => (<Product product={pd}></Product>))}
+        {products.map(pd => (<Product 
+                                handleAddProduct={handleAddProduct}
+                               product={pd}>
+                                           </Product>))}
       </div>
 
       {/* for cart */}
