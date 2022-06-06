@@ -11,3 +11,14 @@
     padding-right: 10px;
     width: 70%;
 }
+
+
+.cart-container{
+    font-family: 'Times New Roman', Times, serif;
+    height: 300px;
+    width: 200px;
+    margin-top:20px; ;
+    margin-left: 60px;
+    padding: 20px;
+    font-weight: 800;
+}
